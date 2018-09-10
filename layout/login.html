@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OLX Pakistan</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="../images/icons/icon-256x256.png" />
+	<link rel="stylesheet" type="text/css" href="../css/all.css">
+</head>
+<body id="login-page">
+	<div class="page-container" style="background: #FF7700;">
+		<header class="site-header">
+			<div class="logo">
+				<a href="../index.html"><img src="../images/icons/icon-128x128.png"></a>
+			</div>
+			<div class="tag-line">
+				<span>Pakistan's Largest Marketplace</span>
+			</div>
+		</header>
+	</div>
+	<div class="page-container">
+		<div class="loginBOX">
+			<center>
+					<a href="../index.html"><img src="../images/icons/icon-128x128.png"></a>
+			</center>
+			<form name="myFORM" id="loginForm" onsubmit="return custom_login();">
+				<label for="email">Your email</label>
+				<input type="email" id="email" required>
+				<label for="password">Password</label>
+				<input type="password" id="password" required>
+				<div id="error-box">
+					
+				</div>
+				<a href="register.html">dont have account?</a>
+				<button id="login" class="olx-btn right">LOGIN</button>
+			</form>
+		</div>
+	</div>
+	<div id="loading"></div>
+
+	<script src="../js/login.js"></script>
+
+</body>
